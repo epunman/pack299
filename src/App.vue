@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="@\assets\cub-scout-ranks.jpg">
+    <img alt="Vue logo" src="~@\assets\cub-scout-ranks.jpg">
     <HelloWorld msg="Cub Scout Pack 299"/>
   </div>
 </template>
