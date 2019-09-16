@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="CSRanks" src="..\src\assets\CSRanks.png">
+    <img alt="CSRanks" src="..\src\assets\logo.png">
     <HelloWorld msg="Cub Scout Pack 299"/>
   </div>
 </template>
