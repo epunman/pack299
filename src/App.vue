@@ -1,18 +1,30 @@
 <template>
   <div id="app">
-    <img alt="CSRanks" src="@/assets/logo.png">
-    <HelloWorld msg="Cub Scout Pack 299"/>
+    <nav>
+        <router-link to='/'>Home</router-link>
+        <router-link to='/register'>Register</router-link>
+        <router-link to='/login'>Login</router-link>
+    </nav>
+    <router-view/>
+    <!-- <img alt="CSRanks" src="@/assets/logo.png">
+    <HelloWorld msg="Cub Scout Pack 299"/> -->
   </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+// <script>
+// import HelloWorld from './components/home.vue'
 
+// export default {
+//   name: 'app',
+//   components: {
+//     HelloWorld
+//   }
+// }
+// </script>
+
+<script>
 export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
+  name: 'App'
 }
 </script>
 
