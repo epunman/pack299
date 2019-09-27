@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <img alt="CSRanks" src="@/assets/logo.png">
-    <p></p>
+    <!-- <img alt="CSRanks" src="@/assets/logo.png">
+    <p></p> -->
     <Navigation></Navigation>
     <p></p>
     <router-view/>
