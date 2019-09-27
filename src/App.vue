@@ -1,30 +1,24 @@
 <template>
   <div id="app">
-    <nav>
-        <router-link to='/'>Home</router-link>
-        <router-link to='/register'>Register</router-link>
-        <router-link to='/login'>Login</router-link>
-    </nav>
+    <img alt="CSRanks" src="@/assets/logo.png">
+    <Navigation></Navigation>
     <router-view/>
-    <!-- <img alt="CSRanks" src="@/assets/logo.png">
-    <HelloWorld msg="Cub Scout Pack 299"/> -->
+      <!-- <div class="alert alert-success alert-dismissible fade show" role="alert">
+        With Bootstrap!
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div> -->
   </div>
 </template>
 
-// <script>
-// import HelloWorld from './components/home.vue'
-
-// export default {
-//   name: 'app',
-//   components: {
-//     HelloWorld
-//   }
-// }
-// </script>
-
 <script>
+import Navigation from './components/Navigation'
 export default {
-  name: 'App'
+  name: 'app',
+  components: {
+    'Navigation': Navigation
+  }
 }
 </script>
 

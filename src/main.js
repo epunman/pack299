@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
 import Router from 'vue-router'
-// import home from '@/components/home'
 import routes from './routes';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 Vue.config.productionTip = false
 
