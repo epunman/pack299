@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <img alt="CSRanks" src="@/assets/logo.png">
+    <p></p>
     <Navigation></Navigation>
+    <p></p>
     <router-view/>
       <!-- <div class="alert alert-success alert-dismissible fade show" role="alert">
         With Bootstrap!
