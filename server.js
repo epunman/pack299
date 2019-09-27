@@ -8,7 +8,7 @@ const app = express();
 app.use(history({
     verbose: true
 }))
-app.use(express.static('.'))//(__dirname + "/dist"));
+app.use(__dirname + "/dist");
 var port = process.env.PORT || 5000;
 app.listen(port);
 console.log('server started '+ port);
