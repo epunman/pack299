@@ -7,7 +7,7 @@ import Formalities from './components/Formalities.vue';
 import Tools from './components/Tools.vue';
 import Communication from './components/Communication.vue';
 import Login from './components/Login.vue';
-import NotFound from './components/NotFound.vue';
+// import NotFound from './components/NotFound.vue';
 
 
 const routes = [
@@ -18,7 +18,7 @@ const routes = [
     { path: '/formalities', component: Formalities},
     { path: '/tools', component: Tools},
     { path: '/communication', component: Communication},
-    { path: '*', component: NotFound}
+    // { path: '*', component: NotFound}
 ];
 
 export default routes;
