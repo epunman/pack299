@@ -1,6 +1,6 @@
 <template>
-    <div>
-    <b-navbar toggleable="lg" type="dark" variant="primary">
+    <div class="godown-60" id="godown">
+    <b-navbar toggleable="lg" fixed="top" type="dark" variant="primary">
         <b-navbar-brand to="/"><img alt="CSRanks" src="@/assets/logo.png" width="110" height="80"> Cub Scout Pack 299</b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -50,5 +50,8 @@
 <script>
 </script>
 
-<style> 
+<style>
+    #godown{
+   height: 75px;
+}
 </style>
