@@ -11,6 +11,7 @@
             <!-- <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">Scouter Terminology</a></li> -->
             <li><a href="https://paypal.me/pack299?locale.x=en_US" target="_blank" rel="noopener">Pack Paypal</a></li>
             <li><a href="https://salecalc.com/paypal" target="_blank" rel="noopener">Calculate Paypal Convenience Fee</a></li>
+            <li>Service Hours Tracking</li>
         </ul>
     </div>
 </template>
