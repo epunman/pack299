@@ -1,0 +1,36 @@
+{
+  "connection": "default",
+  "collectionName": "events",
+  "info": {
+    "name": "event",
+    "description": "Calendar event"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Start": {
+      "required": true,
+      "type": "date"
+    },
+    "End": {
+      "required": true,
+      "type": "date"
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "iCalendar": {
+      "type": "json"
+    },
+    "Archive": {
+      "type": "boolean"
+    }
+  }
+}
